@@ -1,0 +1,15 @@
+{
+    "PowerAddons":
+    [
+        {
+            "Name":"",
+            "Type":"",
+            "Description":"",
+            "Effects":"",
+            "Notes",
+            "Price":0,
+            "Rank":true,
+            "RankMax":0,
+        }
+    ]
+}

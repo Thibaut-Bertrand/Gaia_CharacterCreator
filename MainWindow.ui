@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="centralVLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1125</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Fichier">
+    <property name="title">
+     <string>&amp;Fichier</string>
+    </property>
+    <addaction name="action_Nouveau_personnage"/>
+    <addaction name="separator"/>
+    <addaction name="action_Charger_personnage"/>
+    <addaction name="action_Sauvegarder_personnage"/>
+    <addaction name="separator"/>
+    <addaction name="action_Quitter"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="action_Encyclop_die"/>
+   </widget>
+   <addaction name="menu_Fichier"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Nouveau_personnage">
+   <property name="text">
+    <string>&amp;Nouveau personnage</string>
+   </property>
+  </action>
+  <action name="action_Charger_personnage">
+   <property name="text">
+    <string>&amp;Charger personnage</string>
+   </property>
+  </action>
+  <action name="action_Sauvegarder_personnage">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Sauvegarder personnage</string>
+   </property>
+  </action>
+  <action name="action_Quitter">
+   <property name="text">
+    <string>&amp;Quitter</string>
+   </property>
+  </action>
+  <action name="action_Encyclop_die">
+   <property name="text">
+    <string>&amp;Encyclopedie</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

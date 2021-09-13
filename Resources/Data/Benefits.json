@@ -1,0 +1,336 @@
+{
+    "Benefits":
+    [
+        {
+            "Name":"All out défense Chtonienne",
+            "Description":"Vous vous êtes longuement entrainé à maitriser la Pneuma Chtonienne, qui est un style de combat très défensif.",
+            "Effects":"Lorsque vous utilisez la manœuvre All-out défense, au lieu que votre défense soit augmenté à +3, elle est augmentée à +5.\nLorsque vous utilisez la manœuvre All-out défense, au lieu que votre attaque et DM soient réduit de -5, ils sont réduit de –3",
+            "Notes":"None"
+        },
+        {
+            "Name":"Ami des marginaux",
+            "Description":"Vous vous entendez bien avec ceux qui sont considérés comme des marginaux. Ce peut être des dieux, des mortels, des nymphes, des êtres surnaturels... ",
+            "Effects":"Le MJ vous dira si quelqu’un est considéré comme marginal.\nVous obtenez un bonus de +5 lors d’interaction sociale avec eux.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Ami des nymphes",
+            "Description":"Les nymphes sont vos amies.",
+            "Effects":"Vous gagnez un bonus social de +5 avec les nymphes. Ce bonus passe à +10 avec l'une des catégorie de nymphe suivante, que vous choississez : Nymphes Epigées, Nymphes Hydriades, Nymphes Ouraniennes.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Appendice de rapidité",
+            "Description":"Vous possédez des ailes, des nageoires... ou un autre appendice qui vous permet de vous déplacer plus rapidement.",
+            "Effects":"Pour ce type de déplacement, vous gagnez +2 en AGI.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Archer né",
+            "Description":"Vous êtes naturellement un bon archer.",
+            "Effects":"Vous infligez +2 DM lorsque vous attaquez avec un arc. Vous gagnez une expertise \"Archerie\" au niveau 3.",
+            "Notes":" Ne se cumule pas si vous attaquez avec plusieurs arcs."
+        },
+        {
+            "Name":"Armure naturelle",
+            "Description":"Vous êtes plus résistant que la norme.",
+            "Effects":"Vous gagnez le pouvoir \"Invulnérabilité\" au niveau 7.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Beau parleur",
+            "Description":"Vous êtes beau parleur.",
+            "Effects":"+2 en ELO ainsi qu'un expertise de rang 3.",
+            "Notes":"None."
+        },
+        {
+            "Name":"Beauté incarnée",
+            "Description":"Vous êtes magnifique, même parmi les dieux.",
+            "Effects":"Vous gagnez +2 en ELO, ainsi qu'une expertise \"Séduction\" de +3.",
+            "Notes":"Ainsi sauf cas exceptionnel, toutes attaques possédant des DM net inférieur ou égaux à 7 est inutiles contre toi, tu n’as même pas besoin de te défendre, le type pourrait t’attaquer avec un pétale de rose que ce serait pareil."
+        },
+        {
+            "Name":"Bénédiction",
+            "Description":"Votre parent est connu pour sa bienfaisance.",
+            "Effects":"Vous obtenez un Pouvoir Bénédiction au niveau 15 gratuitement.",
+            "Notes":"Pour rappel, les Bénédictions et Châtiments sont des pouvoirs hors combat vous permettant d’obtenir des fidèles. Les Châtiments ont un plus grand potentiel de gain que les Bénédictions mais aussi un plus grand potentiel de perte que ces dernières."
+        },
+        {
+            "Name":"Berserker",
+            "Description":"Lorsque votre test de vie est réduit suite à des blessures, vous gagnez attaque +5 au prochain tour.",
+            "Effects":"Lorsque votre test de vie est réduit suite à des blessures, vous gagnez attaque +5 au prochain tour.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Bonne éducation",
+            "Description":"Vous êtes bien éduqué.",
+            "Effects":"Vous gagnez au choix : +2 en SAVOIR, +2 en INTUI ou +1 en SAVOIR et en INTUI.\nVous gagnaez aussi une expertise de votre choix au niveau 3.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Bourreau",
+            "Description":"Vous êtes très doué avec les haches. Vous gagnez +3 au test d’attaque et défense avec une hache et infligez +1 blessures létales lorsque vous effectuez un coup décisif avec une hache.",
+            "Effects":"Vous infligez DM+2, lorsque vous attaquez avec une Hache.\nVous gagnez une expertise « Hache » niveau 3.",
+            "Notes":"Ne se cumule pas si vous attaquez avec plusieurs haches."
+        },
+        {
+            "Name":"Chanceux",
+            "Description":"Chanceux",
+            "Effects":"Une fois par session, vous pouvez recommencer un test et garder le résultat qui vous convient.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Chasseur dans l'âme",
+            "Description":"Vous avez probablement passé les 1 000 dernières années dans la nature à devoir suivre Artémis (ou tenter de la suivre plutôt) dans ses parties de chasses, ce qui a fait de vous un chasseur émérite.",
+            "Effects":"Vous gagnez +2 en INTUI, ainsi qu'une expertise de niveau 3 parmi les suivantes : Perception (INTUI), Athlétisme (PUI) ou Furtivité (PRECIS).",
+            "Notes":"None"
+        },
+        {
+            "Name":"Châtiment",
+            "Description":"Votre parent est une divinité connue pour son caractère intransigeant et les châtiments qu’elle n’hésite pas à utiliser sans pitié.",
+            "Effects":"Vous obtenez un pouvoir Châtiment de rang 15 gratuitement.",
+            "Notes":"Pour rappel, les Bénédictions et Châtiments sont des pouvoirs hors combat vous permettant d’obtenir des fidèles. Les Châtiments ont un plus grand potentiel de gain que les Bénédictions mais aussi un plus grand potentiel de perte que ces dernières."
+        },
+        {
+            "Name":"Cogneur",
+            "Description":"Vous aimez cogner des trucs.",
+            "Effects":"Vous infliger DM+2, lorsque vous attaquez avec une arme de Pugilat ou à main nue.\nVous gagnez une expertise « Pugilat » niveau 3.",
+            "Notes":"Ne se cumule pas si vous attaquez avec plusieurs armes de pugilat."
+        },
+        {
+            "Name":"Dieu oracle",
+            "Description":"Vous êtes plus proche de la Trame du Destin que les autres divinités.",
+            "Effects":"Vous obtenez gratuitement les deux Pouvoirs suivant : Précognition et Postcognition.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Dissimulation de l'ombre",
+            "Description":"Vous êtes capable de vous dissimuler dans les ombres.",
+            "Effects":"+2 en PRECIS et expertise Furtivité au rang 3.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Enfant de l'amour",
+            "Description":"Etant enfanté par l’amour en personne, les Effects de séduction ne vous impacteront pas sauf si vous le souhaitez.",
+            "Effects":"Vous êtes immunisé contre la séduction (même si elle est d'origine magique).",
+            "Notes":"Bien sûr, rien ne vous empêche cependant de céder à quelqu’un qui essaierait de vous séduire."
+        },
+        {
+            "Name":"Enfant de la Reine",
+            "Description":"Vous êtes l'enfant de la Reine.",
+            "Effects":"Vous gagnez +3 en ELO.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Enfant des Muses",
+            "Description":"Vous êtes l'enfant des Muses.",
+            "Effects":"Ajoute +2 en ELO et +1 en SAVOIR.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Enfant des Titans",
+            "Description":"Vous êtes l'enfant d'un Titan.",
+            "Effects":"+2 en END, ainsi que le Pouvoir Invulnérabilité au niveau 3.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Enfant du Roi des Rois",
+            "Description":"Vous êtes l'enfant de Zeus.",
+            "Effects":"Lorsque vous utilisez la \"Transformation\", vous pouvez obtenir un second effet en plus de l’effet pour lequel vous avez déclenché la transformation. Les 2 effets peuvent être les mêmes ou différents. Vous décidez du second effet lorsque vous en avez besoin, vous n'êtes pas obligé de décider quel sera le second effet au moment de la transformation.",
+            "Notes":"Attention, la transformation généralement dure 1 tour ou le moment de l’action. Donc si vous n'avez pas décidé d’un second effet, il n’y a pas de second effet."
+        },
+        {
+            "Name":"Essence du Primordial",
+            "Description":"Votre transformation est améliorée.",
+            "Effects":"Lorsque tu utilises la « Transformation », tu peux obtenir un second effet en plus de l’effet pour lequel tu as déclenché la transformation. Les 2 effets peuvent être les mêmes ou différents. Tu décides du second effet lorsque tu en as besoin, tu n’es pas obligé de décider quel sera le second effet au moment de la transformation.",
+            "Notes":"Attention, la transformation généralement dure 1 tour ou le moment de l’action. Donc si tu n’as pas décidé d’un second effet il n’y a pas de second effet"
+        },
+        {
+            "Name":"Etude d'expertise",
+            "Description":"Vous avez longuement étudié certains domaines.",
+            "Effects":"Vous gagnez 10 points d’expertises à distribuer dans vos expertises déjà présentes ou dans de nouvelles expertises.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Flot de la justice",
+            "Description":"Le flot de la justice.",
+            "Effects":"Vous gagnez +1 dans tous vos attributs. ",
+            "Notes":"None"
+        },
+        {
+            "Name":"Foyer de guérison",
+            "Description":"Vous êtes naturellement capable de soignez.",
+            "Effects":"Vous possédez le pouvoir « Guérison » au rang 15 gratuitement.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Gloire, honneur... et immortalité",
+            "Description":"Vous êtes immortel. Ou presque.",
+            "Effects":"Une fois par session, vous pouvez ignorez les DM corporels que vous auriez dû subir.",
+            "Notes":"Vous devez l'indiquer avant de lancer le test de vie. Ne fonctionne pas sur les DM résistible par la Volonté... Si l'attaque à d'autres effets que les DM corporels, vous avez 50% de chance de les ignorer aussi."
+        },
+        {
+            "Name":"Grande destinée",
+            "Description":"Une grande destinée vous attend.",
+            "Effects":"Vous gagnez +2 points de Destin.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Immunité",
+            "Description":"Athéna vous forgée pour te faciliter la tâche dans les combat afin que vous puissiez ignorer certains dégats.",
+            "Effects":"Vous gangez le pouvoir \"Immunité\" gratuitement pour un type de dégât, qui n'auront plus aucun effet contre vous.",
+            "Notes":"En principe, vous ne pouvez avoir qu'une seule immunité envers un certains type de dégât. Mais il est tout à fait possible d'avoir plusieurs immunité envers différents types de dégâts."
+        },
+        {
+            "Name":"Inspiration",
+            "Description":"Vous êtes inspiré.",
+            "Effects":"Ajoute +2 en attribut Intuition.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Intelligence divine",
+            "Description":"Vous êtes naturellement intelligent.",
+            "Effects":"Vous gagnez +3 en attribut SAV.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Magie du Chaos",
+            "Description":"Vous êtes capable d’utiliser la Magie du Chaos. La Magie du Chaos provoque des effets aléatoires lorsqu’elle est utilisée. Les effets sont tantot bénéfique, tantot désavantageux et parfois un peu des deux.\nVous pouvez l’utiliser volontairement. Cependant, il y a 10% de chance que la majorité de vos pouvoirs soit susceptible de déclencher Magie du Chaos involontairement.",
+            "Effects":"None",
+            "Notes":"La Magie du Chaos n’est pas tout à fait autorisé..."
+        },
+        {
+            "Name":"Maître d'armes",
+            "Description":"Vous gagnez trois expertise.",
+            "Effects":"Parmis les expertise suivante, choississez en une au niveau 3, une au niveau 2 et une au niveau 1: Lames, Hache, Arme d'hast, Exotique contact, Masse, Pugilat, Arme de jet.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Maître de la Forge",
+            "Description":"Vous êtes un maître forgeron.",
+            "Effects":"Vous obtenez l'es expertise \"Forge\" et \"Artisanat\" au niveau 3.\nVous obtenez aussi une mini forge protative de qualité classique qui se trouve dans votre trésorerie divine.\nCette forge vous permet d'effectuer des travaux de forge depuis n'importe où.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Maître de la Mort",
+            "Description":"Vous êtes un maître de la mort.",
+            "Effects":"Une fois par session, lorsque vous entrez dans l’état « Mourant », et bien vous vous stabilisez automatiquement immédiatement et devenez incapacité. Au tour suivant, vous perdez l’état incapacité et devenez Assommé lorsque viens votre tour de jouer. Vous conservez vos actions du tour. Pendant le laps de temps où vous êtes incapacité et devez devenir assommé, si on vous attaque de nouveau et que vous redevenez mourant, vous vous re-stabilisez automatiquement.",
+            "Notes":"Attention, admettons qu’ en circonstance assez exceptionnelle, le MJ vous tue en une fois pour X ou Y raison, sans passer par l’état mourrant, ce bienfait n’est pas effectif et vous crevez : il faut que vous entriez en état mourant pour vous rétablir."
+        },
+        {
+            "Name":"Maître de la Nuit",
+            "Description":"Maître de la nuit.",
+            "Effects":"Tu possèdes un bonus de +2 à tous tes tests durant la nuit. ",
+            "Notes":"A savoir que Les Enfers sont considérés comme étant dans une nuit perpétuelle.
+"
+        },
+        {
+            "Name":"Maître du divin",
+            "Description":"Vous êtes doué en magie.",
+            "Effects":"Vous gagnez +3 en DIV.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Maître lancier",
+            "Description":"Vous êtes naturellement bon avec les armes d'hast.",
+            "Effects":"Vous gagnez +3 dans la compétence Estoc et infligez +1 DM lorsque vous utilisez un coup décisif avec Estoc.\nVous infliger DM+2, lorsque vous attaquez avec une Arme d’Hast.\nVous gagnez une expertise « Arme d’hast » niveau 3.",
+            "Notes":"Ne se cumule pas si vous attaquez avec plusieurs armes d’hast."
+        },
+        {
+            "Name":"Malicieux",
+            "Description":"Vous êtes malicieux.",
+            "Effects":"Vous obtenez un bonus de +2 en Eloquence. Vous gagnez aussi une expertise « Ruse » niveau 3.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Mémoire infaillible",
+            "Description":"Vous avez une mémoire eidétique.",
+            "Effects":"Tous vos tests de mémoire pure sont des réussites automatiques exceptées dans certains cas particuliers (par exemple sous l’effet d’un poison, drogues, sort...) auquel cas votre test de mémoire acquiert un bonus de +10.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Objet divin",
+            "Description":" Pour vous accompagner dans vos quêtes, vous et votre père avez forgé ensemble un objet particulier. A décider avec le MJ quel objet ce sera",
+            "Effects":"None",
+            "Notes":"None"
+        },
+        {
+            "Name":"Perfection solaire",
+            "Description":"Vous êtes solairement parfait.",
+            "Effects":"Vous pouvez choisir le bienfait de n’importe quel autre Olympien gratuitement. Cependant, ce bienfait est seulement effectif lorsque le soleil est levé et visible (donc si le ciel est couvert, ce bienfait n’est pas actif).",
+            "Notes":"Attention : Ce pouvoir ne peut pas être \"Seconde Autorité\"."
+        },
+        {
+            "Name":"Poisson dans l'eau",
+            "Description":"Vous êtes comme... un poisson... dans l'eau...",
+            "Effects":"Vous gagnez le pouvoir \"Nage\" au niveau 15.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Précision divine",
+            "Description":"Vous êtes divinement précis.",
+            "Effects":"Vous gagnez +3 en attribut PRECIS.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Puissance divine",
+            "Description":"Vous êtes divinement puissant.",
+            "Effects":"Vous gagnez +3 en attribut PUI.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Résistance naturelle",
+            "Description":"Vous êtes naturellement résistant.",
+            "Effects":"Vous gagnez le Pouvoir Immunité contre tous les types de poisons magiques, divins... Ainsi que contre une condition environnementale de votre choix.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Résistance au Vice",
+            "Description":"Vous êtes capable de mieux résister au vice du miasme.",
+            "Effects":"Lorsque vous êtes vicié par le miasme, vous prenez moitié moins de miasme arrondi au supérieur.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Résistance divine",
+            "Description":"Vous êtes divinement résistant.",
+            "Effects":"Vous gagnez +3 en attribut END.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Second familier divin",
+            "Description":"Vous possédez un second familier qui peut être de taille très petite à grande.",
+            "Effects":"None",
+            "Notes":"None"
+        },
+        {
+            "Name":"Seconde autorité",
+            "Description":"Vous possédez une seconde autorité, que vous choississez.",
+            "Effects":"En plus de votre seconde autorité, vous gagnez 50 XP supplémentaires, ainsi qu'un nouveau Pouvoir signature.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Serment de virginité",
+            "Description":"Vous avez décidé de prêter un serment de virginité auprès des déesse vierges.",
+            "Effects":"Vous gagnez un bonus de +10 pour résister à la tentation de briser votre serment (séduction...). Vous gagnez aussi un bienfait supplémentaire d'une des 3 déesse vierges.",
+            "Notes":"Attention, néanmoins, si vous rompez votre serment et que cela se sait, vous risquez d’avoir de très gros problèmes non seulement avec les déesses vierges mais aussi avec l’ensemble du panthéon, parent ou non.\nN.B. Ce sont généralement des divinités féminines qui font serment de virginité, mais rien n’empêche une divinité masculine de le faire. C’est seulement assez inhabituel et très surprenant."
+        },
+        {
+            "Name":"Vertueux",
+            "Description":"Vous êtes bien plus résistant à tous les types de tentation.",
+            "Effects":"Pour résister à une tentation, vous pouvez effectuer 2 fois le test et choisir celui que vous souhaitez.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Victorieux",
+            "Description":"Vous êtes victorieux.",
+            "Effects":"Une fois par combat, vous pouvez gagner une seconde action standard.",
+            "Notes":"None"
+        },
+        {
+            "Name":"Volonté de Fer",
+            "Description":"Vous avez une volonté de fer.",
+            "Effects":"Vous gagnez +3 en Défense de type « Volonté (DIV) »",
+            "Notes":"None"
+        }
+    ]
+}

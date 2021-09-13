@@ -1,0 +1,1941 @@
+{
+    "Qualities":
+    [
+        {
+            "Name":"All out défense Chtonienne",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous vous êtes longuement entrainé à maitriser la Pneuma Chtonienne, qui est un style de combat très défensif.",
+            "Effects":"Lorsque vous utilisez la manœuvre All-out défense, au lieu que votre défense soit augmenté à +3, elle est augmentée à +5.\nLorsque vous utilisez la manœuvre All-out défense, au lieu que votre attaque et DM soient réduit de -5, ils sont réduit de –3",
+            "EffectsShort":"All-out défense : +5 en défense (au lieu de +3) et -3 DM (au lieu de -5).",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Ambition",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes extrêmement ambitieux. Vous pensez toujours aux opportunités personnelles et elles sont prioritaire pour votre ascension et votre bonheur personnel. Vous faites les choses de manière intéressée, les gestes purement altruistes très peu pour vous. Effectuer quelque chose de purement désintéressé mènera probablement à un test de Volonté.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Ami des marginaux",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous vous entendez bien avec ceux qui sont considérés comme des marginaux. Ce peut être des dieux, des mortels, des nymphes, des êtres surnaturels... ",
+            "Effects":"Le MJ vous dira si quelqu’un est considéré comme marginal.\nVous obtenez un bonus de +5 lors d’interaction sociale avec eux.",
+            "EffectsShort":"+5 pour tests sociaux avec les marginaux.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Ami des nymphes",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Les nymphes sont vos amies.",
+            "Effects":"Vous gagnez un bonus social de +5 avec les nymphes. Ce bonus passe à +10 avec l'une des catégorie de nymphe suivante, que vous choississez : Nymphes Epigées, Nymphes Hydriades, Nymphes Ouraniennes.",
+            "EffectsShort":"+5 pour tests sociaux avec les nymphes, +10 avec une catégorie au choix.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Appendice de rapidité",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous possédez des ailes, des nageoires... ou un autre appendice qui vous permet de vous déplacer plus rapidement.",
+            "Effects":"Pour ce type de déplacement, vous gagnez +2 en AGI.",
+            "EffectsShort":"+2 en AGI pour un déplacement au choix.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Archer né",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes naturellement un bon archer.",
+            "Effects":"Vous infligez +2 DM lorsque vous attaquez avec un arc. Vous gagnez une expertise \"Archerie\" au niveau 3.",
+            "EffectsShort":"+2 DM à l'arc, expertise Archerie rang 3.",
+            "Notes":" Ne se cumule pas si vous attaquez avec plusieurs arcs.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Armure naturelle",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes plus résistant que la norme.",
+            "Effects":"Vous gagnez le pouvoir \"Invulnérabilité\" au niveau 7.",
+            "EffectsShort":"Pouvoir Invulnérabilité rang 7.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Invulnérabilité",
+                            "Value":7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Au nom du Père...",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"De manière générale, étant le fils du grand Hélios il est attendu énormément de vous. La réputation de votre père vous précède et cela vous met une pression de malade pour bien faire les choses.",
+            "Effects":"Lorsque vous ratez un test, vous subissez un malus de -3 à tous vos tests tant que vous n’avez pas réussi le fameux test en réessayant plus tard ou accomplit un grand acte qui vous a redonné confiance.",
+            "EffectsShort":"-3 à tout les tests après un echec.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Aura de colère",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous diffusez une aura de colère autour de vous : votre simple présence a tendance à irriter un peu les personnes environnantes.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"Vos alliés passant tout de même un certaine temps avec vous ne seront pas touchés en continu, mais plutôt de manière ponctuel surtout quand les choses commencent à s’envenimer.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Beau parleur",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes beau parleur.",
+            "Effects":"+2 en ELO ainsi qu'un expertise de rang 3.",
+            "EffectsShort":"+2 en ELOQUENCE, expertise de rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Eloquence",
+                            "Value":2
+                        }
+                    ]
+                },
+                {
+                    "Type":"ChooseExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":["All"],
+                            "Value":[3]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Beauté incarnée",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes magnifique, même parmi les dieux.",
+            "Effects":"Vous gagnez +2 en ELO, ainsi qu'une expertise \"Séduction\" de +3.",
+            "EffectsShort":"+2 en ELOQUENCE, expertise Séduction au rang 3.",
+            "Notes":"Ainsi sauf cas exceptionnel, toutes attaques possédant des DM net inférieur ou égaux à 7 est inutiles contre toi, tu n’as même pas besoin de te défendre, le type pourrait t’attaquer avec un pétale de rose que ce serait pareil.",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Eloquence",
+                            "Value":2
+                        }
+                    ]
+                },
+                {
+                    "Type":"AddExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":"Séduction",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Bénédiction",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Votre parent est connu pour sa bienfaisance.",
+            "Effects":"Vous obtenez un Pouvoir Bénédiction au niveau 15 gratuitement.",
+            "EffectsShort":"Pouvoir Bénédiction au rang 15.",
+            "Notes":"Pour rappel, les Bénédictions et Châtiments sont des pouvoirs hors combat vous permettant d’obtenir des fidèles. Les Châtiments ont un plus grand potentiel de gain que les Bénédictions mais aussi un plus grand potentiel de perte que ces dernières.",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Bénédiction",
+                            "Value":15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Berserker",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Lorsque votre test de vie est réduit suite à des blessures, vous gagnez attaque +5 au prochain tour.",
+            "Effects":"Lorsque votre test de vie est réduit suite à des blessures, vous gagnez attaque +5 au prochain tour.",
+            "EffectsShort":"+5 en attaque après une blessure.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Bonne éducation",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes bien éduqué.",
+            "Effects":"Vous gagnez au choix : +2 en SAVOIR, +2 en INTUI ou +1 en SAVOIR et en INTUI.\nVous gagnaez aussi une expertise de votre choix au niveau 3.",
+            "EffectsShort":"+2 en SAVOIR ou INTUITION, ou +1 dans les deux.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Bourreau",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes très doué avec les haches. Vous gagnez +3 au test d’attaque et défense avec une hache et infligez +1 blessures létales lorsque vous effectuez un coup décisif avec une hache.",
+            "Effects":"Vous infligez DM+2, lorsque vous attaquez avec une Hache.\nVous gagnez une expertise « Hache » niveau 3.",
+            "EffectsShort":"+2 DM à la hache, expertise Hache au rang 3.",
+            "Notes":"Ne se cumule pas si vous attaquez avec plusieurs haches.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Chanceux",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Chanceux",
+            "Effects":"Une fois par session, vous pouvez recommencer un test et garder le résultat qui vous convient.",
+            "EffectsShort":"Une fois par session, garde le meilleur de deux jets.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Chasseur dans l'âme",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez probablement passé les 1 000 dernières années dans la nature à devoir suivre Artémis (ou tenter de la suivre plutôt) dans ses parties de chasses, ce qui a fait de vous un chasseur émérite.",
+            "Effects":"Vous gagnez +2 en INTUI, ainsi qu'une expertise de niveau 3 parmi les suivantes : Perception (INTUI), Athlétisme (PUI) ou Furtivité (PRECIS).",
+            "EffectsShort":"+2 en INTUITION, expertise Perception, Athlétisme ou Furtivité au rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Intuition",
+                            "Value":2
+                        }
+                    ]
+                },
+                {
+                    "Type":"ChooseExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":["Perception", "Athlétisme", "Furtivité"],
+                            "Value":[3]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Châtiment",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Votre parent est une divinité connue pour son caractère intransigeant et les châtiments qu’elle n’hésite pas à utiliser sans pitié.",
+            "Effects":"Vous obtenez un pouvoir Châtiment de rang 15 gratuitement.",
+            "EffectsShort":"Pouvoir Châtiment au rang 15.",
+            "Notes":"Pour rappel, les Bénédictions et Châtiments sont des pouvoirs hors combat vous permettant d’obtenir des fidèles. Les Châtiments ont un plus grand potentiel de gain que les Bénédictions mais aussi un plus grand potentiel de perte que ces dernières.",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Châtiment",
+                            "Value":15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Cogneur",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous aimez cogner des trucs.",
+            "Effects":"Vous infliger DM+2, lorsque vous attaquez avec une arme de Pugilat ou à main nue.\nVous gagnez une expertise « Pugilat » niveau 3.",
+            "EffectsShort":"+2 DM sans arme ou arme de pugilat, expertise Pugilat au rang 3.",
+            "Notes":"Ne se cumule pas si vous attaquez avec plusieurs armes de pugilat.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Délaissé par le destin",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Le destin vous a délaissé.",
+            "Effects":"A la création vous ne possédez qu’un seul point de Destin au lieu de 3.",
+            "EffectsShort":"+2 points de destin.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddDestinyPoint",
+                    "Value":-2
+                }
+            ]
+        },
+        {
+            "Name":"Dieu oracle",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes plus proche de la Trame du Destin que les autres divinités.",
+            "Effects":"Vous obtenez gratuitement les deux Pouvoirs suivant : Précognition et Postcognition.",
+            "EffectsShort":"Pouvoirs Précognition et Postcognition.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Précognition",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Postcognition",
+                            "Value":1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Dissimulation de l'ombre",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes capable de vous dissimuler dans les ombres.",
+            "Effects":"+2 en PRECIS et expertise Furtivité au rang 3.",
+            "EffectsShort":"+2 en PRECISION et expertise Furtivité au rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Accuracy",
+                            "Value":2
+                        }
+                    ]
+                },
+                {
+                    "Type":"AddExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":"Furtivité",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Don juan",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez du mal à résister à la séduction ou même à ne serait-ce qu’une belle personne.",
+            "Effects":"Vous avez un malus variable pouvant aller jusqu’à –10 pour résister à la séduction selon la situation.",
+            "EffectsShort":"Malus pour résister à la séduction, jusqu'à -10.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Douillet",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes douillet.",
+            "Effects":"Lorsque une attaque vous touche, les DM net obtiennent un bonus de +2.",
+            "EffectsShort":"+2 DM subit.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Dualité de la personnalité",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez un dédoublement de la personnalité. Vous possèdez une personnalité principale (qui sera celle que vous avez de manière habituelle) ainsi qu’une autre personnalité assez opposée.\nCela ne signifie pas que vous avez une personnalité du bien et une autre du mal, les deux personnalités vont par contre voir les choses d’une façon différentes (et il est possible que l’une tende plus vers un \"alignement\" plus problématique).\nIl y a certains déclencheurs, et parfois le MJ peut faire tester un changement quand il souhaite.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"Les Dieux disent que vous êtes un Dieu de la dualité. Ce n’est pas une autorité. Juste une appellation pour vous catégoriser.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Ego surdimensionné",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes convaincu d’être supérieur à tout le monde (que ce soit le cas ou non). Vous avez du mal à résister aux flatteries, vous aimez être le centre de l’attention ou que l’on note que vous êtes le plus doué dans telle ou telle chose. Vous êtes vantard, contant souvent vos exploits... Il est possible que vous saouliez un peu les gens avec vos airs supérieurs et hautains, d’autant plus si vous êtes vraiment doué. De plus faire quelque chose qui entacherait votre fierté au regard des autres est particulièrement difficile (comme fuir des combats ou perdre un défi par exemple).",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Enfant de l'amour",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Etant enfanté par l’amour en personne, les Effects de séduction ne vous impacteront pas sauf si vous le souhaitez.",
+            "Effects":"Vous êtes immunisé contre la séduction (même si elle est d'origine magique).",
+            "EffectsShort":"Immunité contre la séduction.",
+            "Notes":"Bien sûr, rien ne vous empêche cependant de céder à quelqu’un qui essaierait de vous séduire.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Enfant de la nuit",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes plus faible lorsque ce n’est pas la nuit.",
+            "Effects":"Vous subissez un malus de -3 à tous vos tests lorsque le Soleil est levé et visible.",
+            "EffectsShort":"-3 à tous les tests quand soleil visible.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Enfant de la Reine",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes l'enfant de la Reine.",
+            "Effects":"Vous gagnez +3 en ELO.",
+            "EffectsShort":"+3 en ELOQUENCE.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Eloquence",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Enfant des Muses",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes l'enfant des Muses.",
+            "Effects":"Ajoute +2 en ELO et +1 en SAVOIR.",
+            "EffectsShort":"+2 en ELOQUENCE et +1 en SAVOIR.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Eloquence",
+                            "Value":2
+                        },
+                        {
+                            "Name":"Knowledge",
+                            "Value":1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Enfant des Titans",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes l'enfant d'un Titan.",
+            "Effects":"+2 en END, ainsi que le Pouvoir Invulnérabilité au niveau 3.",
+            "EffectsShort":"+2 en ENDURANCE et Pouvoir Invunérabilité au rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Endurance",
+                            "Value":2
+                        }
+                    ]
+                },
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Invulnérabilité",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Enfant du Roi des Rois",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes l'enfant de Zeus.",
+            "Effects":"Lorsque vous utilisez la \"Transformation\", vous pouvez obtenir un second effet en plus de l’effet pour lequel vous avez déclenché la transformation. Les 2 effets peuvent être les mêmes ou différents. Vous décidez du second effet lorsque vous en avez besoin, vous n'êtes pas obligé de décider quel sera le second effet au moment de la transformation.",
+            "EffectsShort":"Deuxième lors de la Transformation.",
+            "Notes":"Attention, la transformation généralement dure 1 tour ou le moment de l’action. Donc si vous n'avez pas décidé d’un second effet, il n’y a pas de second effet.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Ennemi des armes",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":" le combat physique, avec ou sans armes, ce n’est pas pour vous. C'est plutôt un truc de brute, et vous êtes plus distingué que ça.",
+            "Effects":"Vous subissez au choix un malus de -5 à tous vos tests d’attaque exceptés si l'attaque est un Pouvoir, ou un malus de -5 à tous vos tests de Défense exceptées si la défense est un Pouvoir.",
+            "EffectsShort":"-5 aux attaques non divines ou au défenses non divines.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Essence du Primordial",
+            "Type":"Bienfait",
+            "Description":"Votre transformation est améliorée.",
+            "Effects":"Lorsque tu utilises la « Transformation », tu peux obtenir un second effet en plus de l’effet pour lequel tu as déclenché la transformation. Les 2 effets peuvent être les mêmes ou différents. Tu décides du second effet lorsque tu en as besoin, tu n’es pas obligé de décider quel sera le second effet au moment de la transformation.",
+            "EffectsShort":"Deuxième effet lors de la transformation.",
+            "Notes":"Attention, la transformation généralement dure 1 tour ou le moment de l’action. Donc si tu n’as pas décidé d’un second effet il n’y a pas de second effet",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Etude d'expertise",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez longuement étudié certains domaines.",
+            "Effects":"Vous gagnez 10 points d’expertises à distribuer dans vos expertises déjà présentes ou dans de nouvelles expertises.",
+            "EffectsShort":"10 points d'expertise supplémentaires.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddExpertisePoint",
+                    "Value":10
+                }
+            ]
+        },
+        {
+            "Name":"Faiblesse",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous possèdez une faiblesse particulière.",
+            "Effects":"Vous choississez le type de faiblesse : Mentale, Physique, Perte de pouvoir, Point faible.",
+            "EffectsShort":"Choix d'une faiblesse (Mentale, Physique, Perte de pouvoir ou Point faible).",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Feignasse de première",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Faire des choses qui demande de l’effort, très peu pour vous. Vous essaierez généralement de déléguer le plus possible vos taches, essayant de ruser pour en avoir le moins à faire et contredire à cela vous demandera généralement un test de Volonté.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Fils de l'Hadès",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Que ce soit les mortels ou les immortels, franchement personne n’est trop fan de tout ce qui vient des Enfers. De base de toute façon tu viens des Enfers donc rien que ça ça va affecter tes relations sociales les rendant plus compliqué et empli de préjugé, mais là c’est pire ça transparait litteralement que tu viens des Enfers.",
+            "Effects":"Vous divisez par 2 le nombre de fidèles gagnés par les Pouvoirs Bénédiction et Châtiment.",
+            "EffectsShort":"Deux fois moins de fidèle gagnés.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Flot de la justice",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Le flot de la justice.",
+            "Effects":"Vous gagnez +1 dans tous vos attributs. ",
+            "EffectsShort":"+1 à tous les attributs.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Power",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Agility",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Endurance",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Accuracy",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Knowledge",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Intuition",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Eloquence",
+                            "Value":1
+                        },
+                        {
+                            "Name":"Divine",
+                            "Value":1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Foyer de guérison",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes naturellement capable de soignez.",
+            "Effects":"Vous possédez le pouvoir « Guérison » au rang 15 gratuitement.",
+            "EffectsShort":"Pouvoir Guérison au rang 15.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Guérison",
+                            "Value":15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Gloire, honneur... et immortalité",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes immortel. Ou presque.",
+            "Effects":"Une fois par session, vous pouvez ignorez les DM corporels que vous auriez dû subir.",
+            "EffectsShort":"Annule les DM physique une fois par session.",
+            "Notes":"Vous devez l'indiquer avant de lancer le test de vie. Ne fonctionne pas sur les DM résistible par la Volonté... Si l'attaque à d'autres effets que les DM corporels, vous avez 50% de chance de les ignorer aussi.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Grande destinée",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Une grande destinée vous attend.",
+            "Effects":"Vous gagnez +2 points de Destin.",
+            "EffectsShort":"+2 points de Destin.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddDestinyPoint",
+                    "Value":2
+                }
+            ]
+        },
+        {
+            "Name":"Guérison difficile",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous prenez plus de temps pour vous remettre de vos blessures.",
+            "Effects":"Votre récupération naturelle est deux fois plus lente que la norme.\nCela concerne aussi les consommables.\nLes sorts de guérisson nécessitent deux fois plus de réussites.\nLe prix de base du Pouvoir Régénération est augmenté de +1XP/rang.",
+            "EffectsShort":"Récupération deux fois plus lente.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Haine du mâle",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes plus méfiant envers la gente masculines ou avez de gros apriori sur eux et avez du mal à être sympathique avec eux tout simplement... Et ça se voit.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Hanté par une furie",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Il y a une furie qui est après vous, elle vous en veux, ou alors vous avez fait une enorme connerie, ou peut-être qu’au contraire elle vous aime beaucoup, ça revient au même.\nElle est extrêmement gênante et cherchera à devenir votre centre d’intérêt, vous torturer l’esprit, et généralement pourra même vous rendre la tache plus difficile seulement pour avoir un peu de votre intention.",
+            "EffectsShort":"None",
+            "Effects":"None",
+            "Notes":"A savoir que les Furies peuvent être invisible même aux yeux des Dieux. Donc il est même possible que personne ne vous croit hanté...",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Ignare",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Etudier, les connaissances, le savoir, tout ça ce n’est pas votre truc.",
+            "Effects":"Vous subissez un malus de -5 à tous vos tests relatifs à l’attribut SAVOIR. De plus le cout de l’Attribut SAVOIR est doublé",
+            "EffectsShort":"-5 aux tests de SAVOIR.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Immunité",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Athéna vous forgée pour te faciliter la tâche dans les combat afin que vous puissiez ignorer certains dégats.",
+            "Effects":"Vous gangez le pouvoir \"Immunité\" gratuitement pour un type de dégât, qui n'auront plus aucun effet contre vous.",
+            "EffectsShort":"Pouvoir Immunité (au choix).",
+            "Notes":"En principe, vous ne pouvez avoir qu'une seule immunité envers un certains type de dégât. Mais il est tout à fait possible d'avoir plusieurs immunité envers différents types de dégâts.",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Immunité",
+                            "Value":1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Ingénu",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes assez naïf et innocent, ayant probablement été élevé dans la bulle de la mère poule, préservée de tout danger. Vous ne connaissez pas très bien le monde qui vous entoure en dehors de chez vous, et vous cherchez à faire le bien d’une manière naïve et gentille le plus possible et en plus ça se voit. Vous vous faites aussi arnaquer plus facilement, parce que vous faites très facilement confiance au gens. Il y a probablement beaucoup de choses qui vous sortent de votre zone de confort.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Inspiration",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes inspiré.",
+            "Effects":"Ajoute +2 en attribut Intuition.",
+            "EffectsShort":"+2 en INTUITION.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Intuition",
+                            "Value":2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Intelligence divine",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes naturellement intelligent.",
+            "Effects":"Vous gagnez +3 en attribut SAV.",
+            "EffectsShort":"+3 en SAVOIR.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Knowledge",
+                            "Value":2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Kleptomane",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Certains truc ont de la valeur, d’autres non. En tout cas, ils ont tendance à atterrir dans votre poche, ou tout du moins sont tentés de venir dans votre poche.",
+            "Effects":"Vous avez donc des tendance kleptomane et à voler des trucs.",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Magie du Chaos",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes capable d’utiliser la Magie du Chaos. La Magie du Chaos provoque des effets aléatoires lorsqu’elle est utilisée. Les effets sont tantot bénéfique, tantot désavantageux et parfois un peu des deux.\nVous pouvez l’utiliser volontairement. Cependant, il y a 10% de chance que la majorité de vos pouvoirs soit susceptible de déclencher Magie du Chaos involontairement.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"La Magie du Chaos n’est pas tout à fait autorisé...",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Maître d'armes",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous gagnez trois expertise.",
+            "Effects":"Parmis les expertise suivante, choississez en une au niveau 3, une au niveau 2 et une au niveau 1: Lames, Hache, Arme d'hast, Exotique contact, Masse, Pugilat, Arme de jet.",
+            "EffectsShort":"Choix de trois expertises de combat aux rangs 3, 2 et 1",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"ChooseExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":["Lames", "Hache", "Arme d'hast",
+                            "Exotique contact", "Masse", "Pugilat",
+                            "Arme de jet"],
+                            "Value":[3, 2, 1]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Maître de la Forge",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes un maître forgeron.",
+            "Effects":"Vous obtenez l'es expertise \"Forge\" et \"Artisanat\" au niveau 3.\nVous obtenez aussi une mini forge protative de qualité classique qui se trouve dans votre trésorerie divine.\nCette forge vous permet d'effectuer des travaux de forge depuis n'importe où.",
+            "EffectsShort":"Expertises Forge et Artisanat au rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":"Forge",
+                            "Value":3
+                        },
+                        {
+                            "Name":"Artisanat",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Maître de la Mort",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes un maître de la mort.",
+            "Effects":"Une fois par session, lorsque vous entrez dans l’état « Mourant », et bien vous vous stabilisez automatiquement immédiatement et devenez incapacité. Au tour suivant, vous perdez l’état incapacité et devenez Assommé lorsque viens votre tour de jouer. Vous conservez vos actions du tour. Pendant le laps de temps où vous êtes incapacité et devez devenir assommé, si on vous attaque de nouveau et que vous redevenez mourant, vous vous re-stabilisez automatiquement.",
+            "EffectsShort":"Stabilisation automatique une fois par session.",
+            "Notes":"Attention, admettons qu’ en circonstance assez exceptionnelle, le MJ vous tue en une fois pour X ou Y raison, sans passer par l’état mourrant, ce bienfait n’est pas effectif et vous crevez : il faut que vous entriez en état mourant pour vous rétablir.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Maître de la Nuit",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Maître de la nuit.",
+            "Effects":"Tu possèdes un bonus de +2 à tous tes tests durant la nuit. ",
+            "EffectsShort":"+2 à tous les tests pendant la nuit.",
+            "Notes":"A savoir que Les Enfers sont considérés comme étant dans une nuit perpétuelle.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Maître du divin",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes doué en magie.",
+            "Effects":"Vous gagnez +3 en DIV.",
+            "EffectsShort":"+3 en DIVIN.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Divine",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Maître lancier",
+            "Type":"Bienfait",
+            "Description":"Vous êtes naturellement bon avec les armes d'hast.",
+            "Effects":"Vous gagnez +3 dans la compétence Estoc et infligez +1 DM lorsque vous utilisez un coup décisif avec Estoc.\nVous infliger DM+2, lorsque vous attaquez avec une Arme d’Hast.\nVous gagnez une expertise « Arme d’hast » niveau 3.",
+            "EffectsShort":"+1 DM avec les lances, expertise Estoc au rang 3.",
+            "Notes":"Ne se cumule pas si vous attaquez avec plusieurs armes d’hast.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Malchanceux",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous manquez de chance, le destin ne sourit pas à tout le monde.",
+            "Effects":"1 fois par session, le MJ peut vous demander de recommencer un test que vous avez réussi et vous prendrez le plus mauvais des 2.",
+            "EffectsShort":"Garde le plus mauvais de deux jets une fois par session.",
+            "Notes":"Impossible d’utiliser des points de destin ou le pouvoir maitre de la chance pour ce test.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Malformation",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous portez une malformation.",
+            "Effects":"Le malus découlera du type de malformation.",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Malicieux",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes malicieux.",
+            "Effects":"Vous obtenez un bonus de +2 en Eloquence. Vous gagnez aussi une expertise « Ruse » niveau 3.",
+            "EffectsShort":"+2 en ELOQUENCE, expertise Ruse au rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Eloquence",
+                            "Value":2
+                        }
+                    ]
+                },
+                {
+                    "Type":"AddExpertise",
+                    "Expertises":
+                    [
+                        {
+                            "Name":"Ruse",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Marginal",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes considéré comme « Marginal » et considéré comme une tache dans cette belle société. L’on vous traitera comme tel.",
+            "Effects":"Vous divisez par 2 les nombres de fidèles gagnés par Bénédictions et Châtiments.",
+            "EffectsShort":"Deux fois moins de fidèles gagnés.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Mémoire infaillible",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez une mémoire eidétique.",
+            "Effects":"Tous vos tests de mémoire pure sont des réussites automatiques exceptées dans certains cas particuliers (par exemple sous l’effet d’un poison, drogues, sort...) auquel cas votre test de mémoire acquiert un bonus de +10.",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Moins talentueux",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Tu es moins talentueux que la moyenne des dieux et c’est compliqué de suivre la cadence.",
+            "Effects":"Le prix de base du pouvoir « Augmentation d’attribut » passe de 2 XP / rang à 3 XP / rang.",
+            "EffectsShort":"Pouvoir Augmentation d'Attribut plus cher.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Némésis",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"A vous de dire pourquoi, mais il y a une divinité qui vous déteste. Cette divinité veut vous nuire par absolument tous les moyens possibles quitte à se mettre en danger. Vous choisit la divinité en question.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"A savoir que cette divinité est au moins aussi puissant que vous et pourrait devenir un ennemi / rival particulièrement difficile à combattre si cela doit arriver. \nVotre personnage peut si vous le souhaitez ne même pas être au courant de l’existence de cette Némésis",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Objet divin",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":" Pour vous accompagner dans vos quêtes, vous et votre père avez forgé ensemble un objet particulier. A décider avec le MJ quel objet ce sera",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Obsessionnel",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez un objectif en tête que rien ne doit contrecarrer. Jamais. Rien d’autre n’est prioritaire.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Paranoïa",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes méfiant de tout le monde et toute choses, voyant de base le mal de partout. L’inconnu, c’est effrayant. Les gens sont mauvais. Voila votre a priori. Vous ne faites confiance à personne mis à part vos très proches. Vous pouvez parfois faire des crises de paranoïa, d’angoisse, être incontrôlable...",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Perfection solaire",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes solairement parfait.",
+            "Effects":"Vous pouvez choisir le bienfait de n’importe quel autre Olympien gratuitement. Cependant, ce bienfait est seulement effectif lorsque le soleil est levé et visible (donc si le ciel est couvert, ce bienfait n’est pas actif).",
+            "EffectsShort":"Choix d'un bienfait d'un autre Olympien.",
+            "Notes":"Attention : Ce pouvoir ne peut pas être \"Seconde Autorité\".",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Poisson dans l'eau",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes comme... un poisson... dans l'eau...",
+            "Effects":"Vous gagnez le pouvoir \"Nage\" au niveau 15.",
+            "EffectsShort":"Pouvoir Nage au rang 15.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddPower",
+                    "Powers":
+                    [
+                        {
+                            "Name":"Nage",
+                            "Value":15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Pouvoir incontrôlable accidentel",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Il arrive parfois que tes pouvoirs se déclenchent tout seul sans le faire exprès, ou encore qu’ils soient mal dosé et dégomme un batiment alors que tu voulais juste éclater une mouche.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"Il est possible que cela vous fasse culpabiliser sur le long terme.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Précision divine",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes divinement précis.",
+            "Effects":"Vous gagnez +3 en attribut PRECIS.",
+            "EffectsShort":"+3 en PRECISION.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Accuracy",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Puissance divine",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes divinement puissant.",
+            "Effects":"Vous gagnez +3 en attribut PUI.",
+            "EffectsShort":"+3 en PUISSANCE.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Power",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Rancunier",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous n’avez pas le pardon facile. La vengeance est un plat qui se mange froid. Vous tenez une liste des personnes qui vous ont manqué de respect ou fait quoi que ce soit qui vous soit rester en travers de la gorge. Contrairement aux personnes vindicatives, vous n’allez pas péter un câble direct pour lui mettre sur la gueule. Non, vous, vous préférez attendre le bon moment pour vous venger de ces personnes de la manière la plus sournoise possible. Les compteurs doivent être remis à zéro.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Résistance naturelle",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes naturellement résistant.",
+            "Effects":"Vous gagnez le Pouvoir Immunité contre tous les types de poisons magiques, divins... Ainsi que contre une condition environnementale de votre choix.",
+            "EffectsShort":"Pouvoir Immunité contre les poisons et contre une condition environnementale au choix..",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Résistance au Vice",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes capable de mieux résister au vice du miasme.",
+            "Effects":"Lorsque vous êtes vicié par le miasme, vous prenez moitié moins de miasme arrondi au supérieur.",
+            "EffectsShort":"Moitié moins de miasme gagné.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Résistance divine",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes divinement résistant.",
+            "Effects":"Vous gagnez +3 en attribut END.",
+            "EffectsShort":"+3 en ENDURANCE.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddAttribute",
+                    "Attributes":
+                    [
+                        {
+                            "Name":"Endurance",
+                            "Value":3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name":"Second familier divin",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous possédez un second familier qui peut être de taille très petite à grande.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Seconde autorité",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous possédez une seconde autorité, que vous choississez.",
+            "Effects":"En plus de votre seconde autorité, vous gagnez 50 XP supplémentaires, ainsi qu'un nouveau Pouvoir signature.",
+            "EffectsShort":"Seconde autorité, nouveau Pouvoir signature et 50XP supplémentaire.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Serment de virginité",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez décidé de prêter un serment de virginité auprès des déesse vierges.",
+            "Effects":"Vous gagnez un bonus de +10 pour résister à la tentation de briser votre serment (séduction...). Vous gagnez aussi un bienfait supplémentaire d'une des 3 déesse vierges.",
+            "EffectsShort":"+10 au test pour ne pas briser le serment.",
+            "Notes":"Attention, néanmoins, si vous rompez votre serment et que cela se sait, vous risquez d’avoir de très gros problèmes non seulement avec les déesses vierges mais aussi avec l’ensemble du panthéon, parent ou non.\nN.B. Ce sont généralement des divinités féminines qui font serment de virginité, mais rien n’empêche une divinité masculine de le faire. C’est seulement assez inhabituel et très surprenant.",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Tentateur",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Il est difficile pour vous de résister à une opportunité de tenter quelqu’un vers un chemin \"douteux\", surtout si cela concerne certains domaines comme l’amour, les passions, les serments... Généralement, échouer à faire céder quelqu’un vous irritera grandement. Le MJ peut parfois demander des jets de DIV (Volonté) pour résister à la tentation de tenter...",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Traumatisme",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez subi un traumatisme. Quel est-il ? A vous de le dire. Dans tous les cas, certaines choses pourrait vous le rappeler, il est possible que vous ayez des flashs...",
+            "Effects":"Vous obtenez un pilier de sombre Parangon relatif au traumatisme d’une valeur de 5.",
+            "EffectsShort":"Nouveau sombre Parangon (au choix) au rang 5.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Vertueux",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes bien plus résistant à tous les types de tentation.",
+            "Effects":"Pour résister à une tentation, vous pouvez effectuer 2 fois le test et choisir celui que vous souhaitez.",
+            "EffectsShort":"Garde meilleur de deux jets pour résister à une tentation.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Vicié par le miasme",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez été légèrement vicié par le miasme, peut être en vous approchant de lieu dont vous n'auriez pas dû ou peut être que vous avez un jour vécu le Trépas et fut contaminé par le miasme du Chaos résiduel.",
+            "Effects":" Vous gagnez 10 points de miasme ainsi qu’un pilier du parangon sombre à une valeur de 3 automatiquement. Vous êtes libre de décrire le pilier et de choisir la doctrine du sombre parangon en question, mais cela ne vous fais gagner aucun point dans le parangon divin.",
+            "EffectsShort":"+10 points de miasme et nouveau Parangon sombre (au choix) au rang 3.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"AddMiasm",
+                    "Value":10
+                }
+            ]
+        },
+        {
+            "Name":"Victorieux",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes victorieux.",
+            "Effects":"Une fois par combat, vous pouvez gagner une seconde action standard.",
+            "EffectsShort":"Une seconde action standard une fois par combat.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Vie sentimentale pourrie",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez du mal à plaire aux gens, pas parce que vous êtes moches ou que vous ne savez pas séduire, mais pour une raison obscure, on dirait que le destin vous met au travers de relations passionnelle, destructrice, toxique si tenté que vous réussissez même à séduire la personne en question.\nOn dirait presque une malédiction.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Vindicatif",
+            "Type":"Tares",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous êtes susceptible, soupe au lait. Genre très susceptible. Et la vengeance est un plat qui se mange froid. Vous en arrivez facilement aux mains pour un rien. Cela ne signifie pas que vous le ferez en hurlant de colère, vous pouvez être très calme (ou paraitre très calme en tout cas). Mais vous avez quand même envie de le taper, le type.",
+            "Effects":"None",
+            "EffectsShort":"None",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        },
+        {
+            "Name":"Volonté de Fer",
+            "Type":"Bienfait",
+            "Reference":
+            {
+                "Book":"Core",
+                "Page":0
+            },
+            "Description":"Vous avez une volonté de fer.",
+            "Effects":"Vous gagnez +3 en Défense de type « Volonté (DIV) »",
+            "EffectsShort":"+3 en défense de Volonté.",
+            "Notes":"None",
+            "Modifications":
+            [
+                {
+                    "Type":"None"
+                }
+            ]
+        }
+    ]
+}
