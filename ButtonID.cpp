@@ -1,5 +1,5 @@
 /* Gaia_CharacterCreator is a free, open-source application that help players to
- * create their character for the tabletop role play game (ttrgp) game
+ * create their character for the tabletop role play game (ttrgp)
  * "Gaia - Le Dernier Mythe" ("Gaia - The Last Myth"). This game is not (yet?)
  * available to the public, but its author gives its approval for this
  * application.
@@ -26,7 +26,8 @@
  * =========================
 
  * Class description:
- * */
+ * A simple class to allow QPushButton to have IDs, in order to keep track of an
+ * unknown number of button when creating dynamic windows. */
 
 #include "ButtonID.h"
 
