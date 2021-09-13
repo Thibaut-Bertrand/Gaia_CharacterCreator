@@ -26,7 +26,8 @@
  * =========================
 
  * Class description:
- * */
+ * A class that will manage other data container, so that the data are separated
+ * for a better managing. */
 
 #include "DataManager.h"
 
